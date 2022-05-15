@@ -22,9 +22,9 @@ The client can also send a delete request to the server as follows:
 
 ## User Manual
 
-1- Create a local folder within the same directory as CloudClient.java.
-2- Populate your local folder, if you wish to do so.
-3- After making sure the server is listening, run the CloudClient.java class and provide the
+1. Create a local folder within the same directory as CloudClient.java.
+2. Populate your local folder, if you wish to do so.
+3. After making sure the server is listening, run the CloudClient.java class and provide the
 folder name as argument. You can run as many client instances as you want by changing the maxClients attribute in the CloudServer.java file from the default 3 to your desired number.
-4- While the connection between the client and the server is held, you can add files to the folder, modify existing files, and delete files, all these changes will be automatically reflected on the server.
-5- In the case of deletion, you will receive a question from the client asking you to confirm the permanent deletion of the file from the cloud. If you wish to keep the file in the cloud, answer by “N”, otherwise answer by “Y”. The file on the cloud won’t be deleted unless you answered by “Y”.
+4. While the connection between the client and the server is held, you can add files to the folder, modify existing files, and delete files, all these changes will be automatically reflected on the server.
+5. In the case of deletion, you will receive a question from the client asking you to confirm the permanent deletion of the file from the cloud. If you wish to keep the file in the cloud, answer by “N”, otherwise answer by “Y”. The file on the cloud won’t be deleted unless you answered by “Y”.
