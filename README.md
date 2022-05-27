@@ -1,4 +1,8 @@
-# SimpleClientServerJavaApp
+# Client Server Java App inspired from Google Drive
+
+## Desription
+
+This project is a minimal cloud drive application inspired from Google Drive. It allows the user to automatically back-up his/her files on the cloud. The client is the process used by the end user; it keeps track of the changes happening to the local folder and it sends those changes to the server side which plays the role of the "cloud".
 
 ## Protocol
 
