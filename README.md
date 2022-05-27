@@ -23,7 +23,7 @@ The client can also send a delete request to the server as follows:
 ## User Manual
 
 1. Create a local folder within the same directory as CloudClient.java.
-2. Populate your local folder, if you wish to do so.
+2. Populate your local folder with the files you'd like to backup on server side (subfolders are not supported).
 3. After making sure the server is listening, run the CloudClient.java class and provide the
 folder name as argument. You can run as many client instances as you want by changing the maxClients attribute in the CloudServer.java file from the default 3 to your desired number.
 4. While the connection between the client and the server is held, you can add files to the folder, modify existing files, and delete files, all these changes will be automatically reflected on the server.
